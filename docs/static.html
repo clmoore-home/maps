@@ -3,12 +3,14 @@
 
 <head>
     <title>Static</title>
+    <script type="module" src="./static.js"></script>
 </head>
 
 <body>
     <h1>Static Page</h1>
     <div>
-        <script src="https://maps.googleapis.com/maps/api/staticmap?center=52.35924173780278,%200.1482252306815054&zoom=17&size=800x800&key=MAPS_API"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/staticmap?center=52.35924173780278,%200.1482252306815054&zoom=17&size=800x800&key=MAPS_API"></script> -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=MAPS_API&callback=initMap&v=weekly" defer></script>
     </div>
     <a href="index.html">Back to index</a>
 </body>
